@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<books xmlns:xsi ="http://www.w3.org/2001?XMLSchema-intance" xsi:noNamespaceSchemaLocation ="book.xsd" >
+<book>
+<book_id>12</book_id>
+<Author>Sedra Smith</Author>
+</book>
+<book>  
+         <fname>Ali</fname>
+         <lname>Ahmed</lname>
+         <email>aliahmed12@gmail.com</email>
+</book>
+<book id="2" > 
+         <fname>Bilal</fname>
+         <lname>Sheikh</lname>
+         <email>bilalsheikh12@gmail.com</email>
+</book>
+<book id="3"> 
+         <book_id>Rafay</book_id>
+         <lname>Shafik</lname>
+         <email>Rafayshafik12@gmail.com</email>
+</book>
+</books>
