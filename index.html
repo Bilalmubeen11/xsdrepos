@@ -33,21 +33,35 @@
     // console.log(Subject["Name"])
     // console.log(Subject["class"])
 
-    var studentname = { name: "Ahmed", lname: "Ali", type: "c" };
+    // var studentname = { name: "Ahmed", lname: "Ali", type: "c" };
 
-    document.write(studentname.name + "<br>");
-    document.write(studentname.lname + "<br>");
-    document.write(studentname.type + "<br>" + "<br>");
+    // document.write(studentname.name + "<br>");
+    // document.write(studentname.lname + "<br>");
+    // document.write(studentname.type + "<br>" + "<br>");
 
-    document.write("<br><h2>Change Value </h2><br>")
+    // document.write("<br><h2>Change Value </h2><br>")
 
-    studentname.name = "Abdullah";
-    document.write(studentname.name + "<br>");
+    // studentname.name = "Abdullah";
+    // document.write(studentname.name + "<br>");
 
-    studentname.lname = "Abid";
-    document.write(studentname.lname + "<br>");
+    // studentname.lname = "Abid";
+    // document.write(studentname.lname + "<br>");
 
-    studentname.type = "A";
-    document.write(studentname.type + "<br>");
+    // studentname.type = "A";
+    // document.write(studentname.type + "<br>");
+
+    document.writeln("<h2>Json Doktype</h2>")
+
+    var student ={
+    "enroll_no" : 1779,
+    "name"      : "Ali",
+    "eligible"  : true,
+    "marks"     : 900,
+    "subject"   : ["XML", "JSON", "JAVA"],
+    "Intro"     : {"naam": "ahmed", "fname" : "Zahid", "location" : "Nazmabad"},
+    }
+
+    console.log(student)
+    // document.write(student.enroll_no)
   </script>
 </html>
